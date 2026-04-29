@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: #020617;
+  color: #e2e8f0;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.header .sub {
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #38bdf8;
+}
+
+.header h1 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.header span {
+  color: #22d3ee;
+}
+
+/* App container */
+.app {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Form */
+.form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.form input {
+  flex: 1;
+  padding: 12px;
+  background: transparent;
+  border: 1px solid #1e293b;
+  color: white;
+}
+
+.form button {
+  background: transparent;
+  border: 1px solid #22d3ee;
+  color: #22d3ee;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Stats */
+.stats {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.card {
+  flex: 1;
+  border: 1px solid #1e293b;
+  padding: 20px;
+  text-align: center;
+}
+
+.card p {
+  font-size: 12px;
+  color: #94a3b8;
+}
+
+.card h2 {
+  color: #22d3ee;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  text-align: left;
+  border-bottom: 1px solid #1e293b;
+  padding: 10px;
+}
+
+td {
+  padding: 12px;
+  border-bottom: 1px solid #1e293b;
+}
+
+/* Score color */
+.score {
+  color: #facc15;
+}
+
+/* Badge */
+.badge {
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.pass {
+  border: 1px solid #22c55e;
+  color: #22c55e;
+}
+
+.fail {
+  border: 1px solid #ef4444;
+  color: #ef4444;
+}
+
+/* Input */
+td input {
+  width: 60px;
+  margin-right: 5px;
+  background: transparent;
+  border: 1px solid #1e293b;
+  color: white;
+}
+
+/* Save button */
+td button {
+  background: transparent;
+  border: 1px solid #334155;
+  color: #94a3b8;
+  cursor: pointer;
+}
